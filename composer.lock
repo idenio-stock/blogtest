@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "bd780fad1857f1f359278e65dcdcb4f1",
+    "content-hash": "10681aaa8941d60c076a139b8a67126a",
     "packages": [
         {
             "name": "composer/installers",
@@ -1107,6 +1107,24 @@
             },
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/amazon-s3-and-cloudfront/"
+        },
+        {
+            "name": "wpackagist-plugin/yoast-test-helper",
+            "version": "1.17",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/yoast-test-helper/",
+                "reference": "tags/1.17"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/yoast-test-helper.1.17.zip"
+            },
+            "require": {
+                "composer/installers": "^1.0 || ^2.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/yoast-test-helper/"
         },
         {
             "name": "wpackagist-theme/twentytwentytwo",
