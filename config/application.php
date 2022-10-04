@@ -129,6 +129,8 @@ if (file_exists($env_config)) {
 
 Config::apply();
 
+remove_action('template_redirect', 'redirect_canonical');
+
 /**
  * Bootstrap WordPress
  */
