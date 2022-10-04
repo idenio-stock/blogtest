@@ -7,3 +7,5 @@
 require_once dirname(__DIR__) . '/vendor/autoload.php';
 require_once dirname(__DIR__) . '/config/application.php';
 require_once ABSPATH . 'wp-settings.php';
+
+$_SERVER['REQUEST_URI'] = str_replace("/wp/wp-admin/", "/testblog/wp/wp-admin/",  $_SERVER['REQUEST_URI']);
